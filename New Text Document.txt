@@ -10,7 +10,9 @@
 
 6 git init       means initialize    to make a git repository of folder or file     now git track the files or folder after initialize
 
-7 git add --a    means all files ko staging area m upload kr do
+7 git add file name   for staging seperate files
 
-8 git comit -m ""      m here means msg
+8 git add --a    means all files ko staging area m upload kr do
+
+9 git commit -m ""      m here means msg
      
