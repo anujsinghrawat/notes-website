@@ -1,0 +1,14 @@
+1 git config --global user.name Aashish
+
+2 git config --global user.email aashish.choudhary78892@gmail.com
+
+3 git config user.name
+                             used for checking
+4 git config user.email 
+
+5 git status     to check it is git repoistory or not
+
+6 git init       means initialize    to make a git repository of folder or file     now git track the files or folder after initialize
+
+7 git add --a    means all files ko staging area m upload kr do
+     
