@@ -1,3 +1,8 @@
+
+     author   who creates files
+     commiter   who change or edit the file
+
+    
 1 git config --global user.name Aashish
 
 2 git config --global user.email aashish.choudhary78892@gmail.com
@@ -6,13 +11,82 @@
                              used for checking
 4 git config user.email 
 
-5 git status     to check it is git repoistory or not
+5      git status     to check it is git repoistory or not
+                 kya kya changes reh gye h ya kya kya changes hue h 
 
-6 git init       means initialize    to make a git repository of folder or file     now git track the files or folder after initialize
+6      git init       means initialize    to make a git repository of folder or file     now git track the files or folder after initialize
+                                             to make a folder as a git repository
 
-7 git add file name   for staging seperate files
+7      git add file name   for staging seperate files
 
-8 git add --a    means all files ko staging area m upload kr do
+8      git add --a    means all files ko staging area m upload kr do
 
-9 git commit -m ""      m here means msg
-     
+9      git commit -m ""      m here means msg
+       git commit -a -m ""    to bypass the staging area
+
+10     git log         to check all the commit    what are the changes
+
+11     git log -p     with the commit it also shows what thing is change 
+       git log -p -10  shows only 10 commit log
+
+12     git log --stat   it shows commit with the short summary of commits and changes   
+
+13     git log --pretty=oneline      it gives all commit in one line
+
+14     git log --pretty=short        it give commit and info in very short and simple not shows difference
+  
+15     git log --pretty=full        give more info about commits in repoistory
+
+16       git log --since=2.days      shows commits or log of 2 days also we can write 2 weeks or 2 months  
+
+17       git log --pretty=format:"%h"-- "%an"    here %h is hash code and %an is author name we can write other thing also in this other format
+       
+18     rm -rf .git  to remove repository or foldermerge commit or     
+
+         git commit --amend                  if  want to merge commit or change 
+
+       git diff            compares working directory with staging area (files)
+
+
+       git diff --staged       compares last commit with stages area
+
+       git commit -a -m "msg"    all tracked files ko stage krke commit bna deta h
+
+       git rm filename    to delete file
+
+       git mv file name new filename       to rename file 
+
+      git rm --cached file name      untrack the file
+
+19     touch file name.extension     making file name in linux
+
+      git restore --staged filename      to unstage the file
+
+      git checkout -- file name            to restore the file content to previous content
+
+      git checkout -f                       to restore thr file content of all file 
+
+     git config --global alias.st 'status'  this is used to shorten the command
+             now we can use if we apply alias st as status
+
+      git branch                             to check branches
+
+     git checkout -b branch name               to make a new branch and also switch to this branch
+
+     git checkout branch name                  to change the branch name
+
+     git merge branch name                    to merge the branches in master branch by other branches 
+
+     git branch -v                             shows the last commit of all branches  
+
+     git branch --merged                shows all branches which you already merged
+
+     git branch --no -merged            shows not already merged branches
+
+     git branch -d branch name           to delete the branch        it also gives error if you not already merged that branch
+
+     git branch -D branch name          it also delete the branches without giving error if file is not merged
+
+     git remote               for checking files we send to github
+
+     git remote -v
