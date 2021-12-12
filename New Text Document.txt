@@ -89,4 +89,8 @@
 
      git remote               for checking files we send to github
 
-     git remote -v
+     git remote -v       
+
+    git push origin  repo name
+
+   git push -d origin repo name         to delete repo
